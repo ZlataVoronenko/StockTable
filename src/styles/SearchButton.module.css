@@ -1,0 +1,15 @@
+.searchInput {
+    width: 180px;
+    padding: 6px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.searchInput::placeholder {
+    color: black;
+}
+
+.searchInput:focus::placeholder {
+    color: transparent;
+}

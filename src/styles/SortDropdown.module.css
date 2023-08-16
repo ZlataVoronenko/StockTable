@@ -1,0 +1,22 @@
+
+.sort{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.sortContainer{
+width: 350px;
+}
+
+.sortContent{
+display: flex;
+justify-content: space-between;
+}
+
+
+.select{
+border: 1px solid #aaa;
+padding: 5px;
+border-radius: 5px;
+}

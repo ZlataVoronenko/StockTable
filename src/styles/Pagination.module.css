@@ -1,0 +1,36 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.paginationContent{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+}
+
+.text{
+    font-family: -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    line-height: 1;
+}
+
+button{
+    width: 65px;
+    height: 30px;
+    background-color: #a6c094;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    border: #a6c094;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}

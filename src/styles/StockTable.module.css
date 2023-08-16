@@ -1,0 +1,44 @@
+table{
+    margin: 0px 0px 20px 0px;
+    width: 750px;
+    height: 550px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+tr {
+    border: 1px solid #ccc;
+}
+td, th {
+    border: 1px solid #ccc;
+    background-color: rgb(223, 239, 223);
+    padding: 10px;
+}
+thead{
+    height: 50px;
+}
+
+.stockNumber{
+    width: 50px;
+}
+.stockRow{
+    width: 750px;
+    height: 50px;
+}
+.stockCode{
+    width: 110px;
+}
+.companyName{
+    width: 360px;
+}
+.latestPrice{
+    width: 140px;
+}
+
+.noDataRow td {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    vertical-align: middle;
+}
